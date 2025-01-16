@@ -24,7 +24,7 @@ for line in lines1:
         file2_index += 1
 
 # Save the updated content to a new file named output.txt
-with open('output.txt', 'w', encoding='utf-8') as output_file:
+with open('output_caption_merger.txt', 'w', encoding='utf-8') as output_file:
     output_file.write("\n".join(updated_lines).strip() + "\n")
 
 print("File updated successfully. The updated content has been saved to 'output.txt'.")
